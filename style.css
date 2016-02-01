@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1a3771;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  transition: height .3s;
+  width: 100%;
+}
+
+.smaller {
+  height: 50px;
+}
+
+.hidden {
+  height: 0;
+}
+
+main {
+  margin: 125px auto 0;
+  width: 80%;
+}
+
+.shade-of-grey {
+  background-color: #F3F3F3;
+}
